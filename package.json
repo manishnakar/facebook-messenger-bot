@@ -1,0 +1,26 @@
+{
+  "name": "facebook-messenger-bot",
+  "version": "1.0.0",
+  "description": "facebook messenger bot ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishnakar/facebook-messenger-bot.git"
+  },
+  "keywords": [
+    "facebook",
+    "chat",
+    "messenger",
+    "bot",
+    "bot"
+  ],
+  "author": "Manish Nakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishnakar/facebook-messenger-bot/issues"
+  },
+  "homepage": "https://github.com/manishnakar/facebook-messenger-bot#readme"
+}
