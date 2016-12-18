@@ -7,7 +7,7 @@ var app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-app.listen((process.env.PORT || 3000));
+
 
 // Server frontpage
 app.get('/', function (req, res) {
@@ -21,4 +21,10 @@ app.get('/webhook', function (req, res) {
     } else {
         res.send('Invalid verify token');
     }
+});
+
+var port = process.env.PORT || 8000
+
+app.listen(port, function() {
+    console.log("App is running on port " + port);
 });
